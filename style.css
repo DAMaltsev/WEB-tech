@@ -1,19 +1,67 @@
 * {
 font-family: 'Bad Script', cursive;
+box-sizing: border-box;
 
+}
+
+body{
+    margin:0;
 }
 
 p{
     color:#235367;
 }
 
-h1, h2, h3{
+.title{
+    padding-top:14%;
+    text-align: center;
+    color:white;
+    display: block;
+    line-height: 1.6;
+    font-size: 2rem;
+}
+
+#arrow{
+    width:50px;
+    margin:10% 50%; 
+      
+}
+
+.name {
+    height:700px;
+    width: 100%;
+    background: chartreuse;
+    background-image: url(img/finan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    margin:0;
+    max-width:100%;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size:4rem;
+    color:white;
+    text-decoration: underline;
+    line-height: 2.5;
+    text-transform:uppercase;
+}
+
+h2, h3{
     background:bisque;
     color: dimgray;
+    text-align: center;
+    border-bottom:3px solid lightgrey;
+    margin: 0.5em 0;
 }
 
 .ch1 {
     background: lightblue;
+    
+    
 }
 
 .ch2 {
@@ -21,11 +69,16 @@ h1, h2, h3{
 }
 
 .ch3 {
-    background:#f27;
+    background:#ff3;
 }
 
-img{
-        border:3px solid lawngreen;
+.img {
+        text-align: center;       
+        
+}
+
+.img{
+    border:3px solid lawngreen;
 }
 table{
     border:5px dotted gray;
@@ -56,3 +109,17 @@ pre{
 ul{
     color:red;  
 }
+
+a:link{
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:cornflowerblue;
+}
+
+a:hover{
+    color:darkolivegreen;
+}
+
