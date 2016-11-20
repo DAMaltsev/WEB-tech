@@ -1,12 +1,11 @@
 * {
-
 box-sizing: border-box;
-
 }
 
 body{
     font-family: 'Bad Script', cursive;
     margin:0 0;
+    background: DAC5C5
 }
 
 p{
@@ -25,20 +24,21 @@ p{
 #arrow{
     width:50px;
     margin:10% 50%; 
-      
 }
 
 .name {
     height:700px;
     width: 100%;
     background: chartreuse;
-    background-image: url(img/finan.jpg);
+    background-image: linear-gradient(0deg, #fff 10%, transparent 75%),
+        url(img/finan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
     margin:0;
     max-width:100%;
     padding: 0;
+    
 }
 
 h1 {
@@ -50,17 +50,17 @@ h1 {
     line-height: 2.5;
     text-transform:uppercase;
     text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -72,23 +72,73 @@ h2, h3{
     margin: 0.5em 0;
 }
 
-.ch1 {
-    background: lightblue;
-    
-    
+/*********** Chapter 3*/
+
+.ch1-1 {
+    width:30%;
+    float: left;
+    margin-right:5%;
 }
 
-.ch2 {
-    background:orange;
+.ch1-2 {
+     width:30%;
+    float: left; 
+    margin-right:5%;
 }
 
-.ch3 {
-    background:#ff3;
+.ch1-3{
+    width:30%;
+    float: left
 }
+
+/************ Chapter 2*/
+
+.ch2-1 {
+    width:30%;
+    float: left;
+    margin-right:5%;
+}
+
+.ch2-2 {
+     width:30%;
+    float: left; 
+    margin-right:5%;
+}
+
+.ch2-3{
+    width:30%;
+    float: left
+}
+
+/************** Chapter 3*/
+
+.ch3-1 {
+    width:30%;
+    float: left;
+    margin-right:5%;
+}
+
+.ch3-2 {
+     width:30%;
+    float: left; 
+    margin-right:5%;
+}
+
+.ch3-3{
+    width:30%;
+    float: left
+}
+
+/*******************/
 
 .img {
         text-align: center;       
-        
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
@@ -107,8 +157,6 @@ h2, h3{
     padding-left: 10%;
     padding-right:10%;
     font-size: 1.3em;
-    
-    
 }
 
 table{
@@ -133,12 +181,12 @@ ul{
 }
 
 a:link{
-    color:blue;
+    color:orange;
     text-decoration: none;
 }
 
 a:visited{
-    color:cornflowerblue;
+    color:orange;
 }
 
 a:hover{
@@ -162,7 +210,11 @@ a:hover{
     background-size: cover;
     color: aliceblue;
     box-shadow: 5px 5px 15px #aaa; 
-    }
+    border-top:9px solid orange;
+    border-radius: 10px;
+    
+}
+
 h4{
     padding-top: 90px;
     color:white
